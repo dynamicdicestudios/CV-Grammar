@@ -1,7 +1,7 @@
 import pytesseract, language_check      
 from pil import Image     
 
-file = 'poigenous.PNG'
+file = 'illiad.PNG'
 # opening an image from the source path 
 img = Image.open(file)
 dot = file.index(".")
