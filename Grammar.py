@@ -1,7 +1,7 @@
 import pytesseract, language_check      
 from pil import Image     
 
-file = 'humanbotics.PNG'
+file = 'poigenous.PNG'
 # opening an image from the source path 
 img = Image.open(file)
 dot = file.index(".")
