@@ -31,4 +31,5 @@ orig = orig.replace(orig, language_check.correct(orig, matches))
 with open(name + '.txt',mode ='w') as file:      
     file.write(orig)
 
+print(len(matches), "mistakes were found in this image.")
 print("finished")
