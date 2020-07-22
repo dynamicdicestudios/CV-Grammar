@@ -1,5 +1,5 @@
 import pytesseract, language_check      
-from pil import Image     
+from PIL import Image     
 
 def main(file):
     #file = 'substinces.PNG'
